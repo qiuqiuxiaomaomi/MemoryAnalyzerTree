@@ -59,3 +59,14 @@ PS Old Generation
 
 33865 interned Strings occupying 3802480 bytes.
 </pre>
+
+![](https://i.imgur.com/CX8vIUM.png)
+
+<pre>
+堆的详细占用情况
+[karakal@master party-info]$ jmap -histo 1596579
+
+ num     #instances         #bytes  class name
+----------------------------------------------
+
+</pre>
