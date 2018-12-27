@@ -200,3 +200,17 @@ tmpfs                6.3G     0  6.3G   0% /run/user/1000
 tmpfs                6.3G     0  6.3G   0% /run/user/0
 tmpfs                6.3G     0  6.3G   0% /run/user/1001
 </pre>
+
+![](https://i.imgur.com/bp9Yq6b.png)
+
+![](https://i.imgur.com/0JHYvfh.png)
+
+<pre>
+JavaMissonControl
+
+     随着JDK7 up40版本之后，jdk会自带JMC(JavaMissionControl)工具。可以分析本地应用以
+     及连接远程ip使用。提供了实时分析线程、内存，CPU、GC等信息的可视化界面。从jdk8 up40
+     开始，JMC还提供了在运行时创建JFR记录(飞行记录器)。如果是全面分析heap dump,再综合
+     使用MAT(Eclipse Memory Analyzer)。基本就可以做很多日常的性能调优以及线上问题排查了。
+</pre>
+
